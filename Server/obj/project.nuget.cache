@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "CtrWcjwo+HYtn7v0O6p/9eulmD6n8zAbXBRnw0DW65fTtJEwmqdmJFghgFOnL4iCwejIen7y4gkzx/nTtgvcbA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hasan\\source\\repos\\Network Programming Screensharing HW\\Server\\Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\system.drawing.common\\8.0.0\\system.drawing.common.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

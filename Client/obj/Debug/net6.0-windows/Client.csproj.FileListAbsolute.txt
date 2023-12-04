@@ -1,0 +1,42 @@
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\bin\Debug\net6.0-windows\Client.exe
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\bin\Debug\net6.0-windows\Client.deps.json
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\bin\Debug\net6.0-windows\Client.runtimeconfig.json
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\bin\Debug\net6.0-windows\Client.dll
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\bin\Debug\net6.0-windows\Client.pdb
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\obj\Debug\net6.0-windows\Client.csproj.AssemblyReference.cache
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\obj\Debug\net6.0-windows\Views\MainView.g.cs
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\obj\Debug\net6.0-windows\Client_MarkupCompile.cache
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\obj\Debug\net6.0-windows\Client_MarkupCompile.lref
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\obj\Debug\net6.0-windows\Views\MainView.baml
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\obj\Debug\net6.0-windows\Client.g.resources
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\obj\Debug\net6.0-windows\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\obj\Debug\net6.0-windows\Client.AssemblyInfoInputs.cache
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\obj\Debug\net6.0-windows\Client.AssemblyInfo.cs
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\obj\Debug\net6.0-windows\Client.csproj.CoreCompileInputs.cache
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\obj\Debug\net6.0-windows\Client.dll
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\obj\Debug\net6.0-windows\refint\Client.dll
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\obj\Debug\net6.0-windows\Client.pdb
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\obj\Debug\net6.0-windows\Client.genruntimeconfig.cache
+C:\Users\hasan\source\repos\Network Programming Screenshot Sharing HW\Client\obj\Debug\net6.0-windows\ref\Client.dll
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\bin\Debug\net6.0-windows\Client.exe
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\bin\Debug\net6.0-windows\Client.deps.json
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\bin\Debug\net6.0-windows\Client.runtimeconfig.json
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\bin\Debug\net6.0-windows\Client.dll
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\bin\Debug\net6.0-windows\Client.pdb
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\obj\Debug\net6.0-windows\Client.csproj.AssemblyReference.cache
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\obj\Debug\net6.0-windows\Views\MainView.g.cs
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\obj\Debug\net6.0-windows\Client_MarkupCompile.cache
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\obj\Debug\net6.0-windows\Client_MarkupCompile.lref
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\obj\Debug\net6.0-windows\Views\MainView.baml
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\obj\Debug\net6.0-windows\Client.g.resources
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\obj\Debug\net6.0-windows\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\obj\Debug\net6.0-windows\Client.AssemblyInfoInputs.cache
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\obj\Debug\net6.0-windows\Client.AssemblyInfo.cs
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\obj\Debug\net6.0-windows\Client.csproj.CoreCompileInputs.cache
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\obj\Debug\net6.0-windows\Client.dll
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\obj\Debug\net6.0-windows\refint\Client.dll
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\obj\Debug\net6.0-windows\Client.pdb
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\obj\Debug\net6.0-windows\Client.genruntimeconfig.cache
+C:\Users\hasan\source\repos\Network Programming Screensharing HW\Client\obj\Debug\net6.0-windows\ref\Client.dll
