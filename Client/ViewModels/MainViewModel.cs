@@ -1,18 +1,18 @@
 ﻿using System;
+using System.IO;
 using System.Net;
-using System.Text;
-using System.Net.Sockets;
-using System.Threading.Tasks;
-using System.Windows.Input;
-using Client.Commands;
+using System.Linq;
 using System.Windows;
 using System.Drawing;
-using System.Windows.Media.Imaging;
+using Client.Commands;
+using System.Net.Sockets;
+using System.Windows.Input;
 using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.IO;
-using System.Windows.Media;
+using System.Threading.Tasks;
+using System.Drawing.Imaging;
 using System.Collections.Generic;
+using System.Windows.Media.Imaging;
+using System.Runtime.CompilerServices;
 
 namespace Client.ViewModels;
 
@@ -48,21 +48,51 @@ public class MainViewModel : INotifyPropertyChanged {
         ScreenshotButtonCommand = new RelayCommand(TakeScreenshot);
     }
 
+    private Bitmap CaptureScreen() {
+
+        Bitmap memoryImage = new Bitmap(1920, 1080);
+        try {
+            System.Drawing.Size s = new (memoryImage.Width, memoryImage.Height);
+
+            Graphics memoryGraphics = Graphics.FromImage(memoryImage);
+
+            memoryGraphics.CopyFromScreen(0, 0, 0, 0, s);
+
+        }
+        catch (Exception ex) {
+            MessageBox.Show(ex.Message);
+        }
+
+        return memoryImage;
+    }
+
+    static byte[] ConvertBitmapToByteArray(Bitmap bitmap) {
+        using (MemoryStream stream = new MemoryStream()) {
+
+            bitmap.Save(stream, ImageFormat.Jpeg);
+
+            return stream.ToArray();
+        }
+    }
+
     private void TakeScreenshot(object? param) {
 
         var client = new UdpClient();
 
-        var Ip = IPAddress.Parse("127.0.0.1");
-        var Port = 27002;
+        var connectEP = new IPEndPoint(IPAddress.Parse("127.0.0.2"), 27002);
 
-        var remoteEP = new IPEndPoint(Ip, Port);
 
-        var msg = "takescreenshot";
-        var len = 0;
-        var buffer = Array.Empty<byte>();
+        Task.Run(async () => {
+            while (true) {
 
-        buffer = Encoding.Default.GetBytes(msg);
-        client.SendAsync(buffer, remoteEP);
+                var buffer = ConvertBitmapToByteArray(CaptureScreen());
+                var chunks = buffer.Chunk(ushort.MaxValue - 29);
+
+                foreach (var item in chunks) {
+                    await client.SendAsync(item, item.Length, connectEP);
+                }
+            }
+        });
     }
 
     private async Task ListenClientAsync() {
